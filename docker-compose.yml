@@ -1,0 +1,11 @@
+version: '3'
+services:
+  devops:
+    container_name: "devops"
+    tty: true
+    stdin_open: false
+    image: "imjoseangel/devops"
+    ports:
+      - "80:80"
+    labels:
+      - "DevOps Assessment"
